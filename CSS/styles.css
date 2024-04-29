@@ -1,0 +1,77 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 20px;
+  }
+  
+  .logo {
+    /* Add styles for your logo here */
+  }
+  
+  .profile-pic {
+    width: 50px;
+    height: 50px;
+    background-color: #ccc;
+    border-radius: 25px;
+  }
+  
+  .main-content {
+    text-align: center;
+    margin: 20px 0;
+  }
+  
+  .title-input {
+    margin-bottom: 10px;
+  }
+  
+  button {
+    background-color: #9400D3;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    margin-top: 10px;
+    cursor: pointer;
+  }
+  
+  .review {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+  }
+  
+  .stars {
+    color: gold;
+    margin-right: 5px;
+  }
+  
+  .star {
+    color: #ccc;
+  }
+  
+  .filled {
+    color: gold;
+  }
+  
+  .footer {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .social-icon {
+    text-decoration: none;
+    font-size: 24px;
+    margin: 0 10px;
+    /* Add styles for your icons here */
+  }
+  
